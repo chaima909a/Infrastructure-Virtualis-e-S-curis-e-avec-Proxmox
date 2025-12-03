@@ -1,0 +1,2 @@
+# Sauvegarde automatique toutes les 30 minutes
+*/30 * * * * proxmox-backup-manager backup proxmox-backups --compression lzo
